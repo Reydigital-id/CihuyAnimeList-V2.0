@@ -14,7 +14,7 @@ const Page = async ({ params: { id } }) => {
       </div>
       <div className="bungkus flex gap-2 text-primary overflow-x-auto">
         <div className="meluas w-36 flex flex-col justify-center items-center rounded border border-primary">
-          <h3>PERINGKAT</h3>
+          <h3>RANKING</h3>
           <p>{anime.data.rank}</p>
         </div>
         <div className="meluas w-36 flex flex-col justify-center items-center rounded border border-primary">
@@ -26,7 +26,7 @@ const Page = async ({ params: { id } }) => {
           <p>{anime.data.episodes}</p>
         </div>
         <div className="meluas w-36 flex flex-col justify-center items-center rounded border border-primary">
-          <h3>ANGGOTA</h3>
+          <h3>MEMBER</h3>
           <p>{anime.data.members}</p>
         </div>
         <div className="meluas w-36 flex flex-col justify-center items-center rounded border border-primary">
